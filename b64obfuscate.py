@@ -26,7 +26,7 @@ def main():
             if answer == 'N' or answer == 'NO' or not answer:
                 return
             elif answer == 'Y' or answer == 'YES':
-                print('Got it')
+                print('Got it...')
     except Exception:
         print('Invalid input')
         return
